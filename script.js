@@ -30,3 +30,4 @@ const TheGirlNextDoor = "assets/audio/TheGirlNextDoor.mp3";
 function play(path){
     audio.setAttribute('src', path);
 }
+
