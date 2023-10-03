@@ -11,6 +11,25 @@ body {
     background: #222;
 }
 
+.gradient-background {
+    background: linear-gradient(152deg,#ff0093,#4800ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 audio{
     position: absolute;
     top: 10px;
@@ -41,7 +60,7 @@ audio{
             grid-template-rows: repeat(5, 100px);
             gap: 5px;
             position: absolute;
-            animation: slide 15s linear infinite;
+            animation: slide 20s linear infinite;
             
             div{
                 background-size: cover;
@@ -68,6 +87,7 @@ audio{
         transform: translateX(-1680px);
     }
 }
+
 
 
 
