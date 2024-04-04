@@ -1,5 +1,3 @@
-alert('Por favor, não se incomode com as imagens dos albuns, elas são meramente ilustrativas.');
-
 const audio = document.getElementById('audio');
 
 const FukashigiNoCarte = "assets/audio/FukashigiNoCarte.mp3";
